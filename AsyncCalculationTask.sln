@@ -1,8 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncCalculationTask", "AsyncCalculationTask\AsyncCalculationTask.csproj", "{70D12589-D28C-4AD5-8092-E8903D17A686}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculation", "Calculation\Calculation.csproj", "{70D12589-D28C-4AD5-8092-E8903D17A686}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncCalculationTask.Tests", "AsyncCalculationTask.Tests\AsyncCalculationTask.Tests.csproj", "{BB972ABC-BE5F-4337-BF0B-52D45366B1FF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculation.Tests", "Calculation.Tests\Calculation.Tests.csproj", "{BB972ABC-BE5F-4337-BF0B-52D45366B1FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculation.ConsoleClient", "Calculation.ConsoleClient\Calculation.ConsoleClient.csproj", "{6C2B70DF-11DE-419F-A849-996C85597111}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +20,9 @@ Global
 		{BB972ABC-BE5F-4337-BF0B-52D45366B1FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB972ABC-BE5F-4337-BF0B-52D45366B1FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB972ABC-BE5F-4337-BF0B-52D45366B1FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C2B70DF-11DE-419F-A849-996C85597111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C2B70DF-11DE-419F-A849-996C85597111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C2B70DF-11DE-419F-A849-996C85597111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C2B70DF-11DE-419F-A849-996C85597111}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
