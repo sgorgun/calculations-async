@@ -13,7 +13,7 @@ Estimated time to complete the task: 6h.
 
 ## Task Description
 
- - Review the articles
+ - Read the articles
     - [Asynchronous programming with async and await](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/).
     - [Your Ultimate async / await Tutorial in C#](https://www.codingame.com/playgrounds/4240/your-ultimate-async-await-tutorial-in-c/introduction). 
     - [Async and Await](https://blog.stephencleary.com/2012/02/async-and-await.html).
