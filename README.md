@@ -1,4 +1,4 @@
-# Calculation. Async CPU bound operations.
+# Calculations. Async CPU bound operations.
 
 A advanced level task for practicing asyncronous programming for CPU bound operations.
 
