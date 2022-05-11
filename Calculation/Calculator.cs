@@ -28,7 +28,7 @@ namespace Calculation
         /// <param name="progress">Presents current status of the asynchronous operation in form of the current value of sum and index.</param>
         /// <returns>A task that represents the asynchronous sum: 1 + 2 + ... + n.</returns>
         /// <exception cref="ArgumentOutOfRangeException">Throw if n less or equals zero.</exception>
-        public static Task<long> CalculateSumAsync(int n, CancellationToken? token = null, IProgress<(int, long)>? progress = null)
+        public static Task<long> CalculateSumAsync(int n, CancellationToken token, IProgress<(int, long)>? progress = null)
         {
             throw new NotImplementedException();
         }
