@@ -1,8 +1,8 @@
-# Calculations. Async CPU bound operations.
+# Calculations (Async)
 
-A advanced level task for practicing asynchronous programming for CPU bound operations.
+An advanced level task for practicing asynchronous programming for CPU bound operations.
 
-In this task you 
+In this task you
 - will learn the basics of asynchronous programming;
 - will get acquainted with [`Task`](https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.task?view=net-6.0) and [`Task<TResult`>](https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.task-1?view=net-6.0) classes from [System.Threading.Tasks](https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks?view=net-6.0) namespace;
 - will learn how to use `async/await` key words in asynchronous programming. 
@@ -10,6 +10,7 @@ In this task you
 Before starting the task learn how to use `Task`/`Task<TResult>` classes and `async/await` key words in C#.
 
 Estimated time to complete the task: 6h.
+
 
 ## Task Description
 

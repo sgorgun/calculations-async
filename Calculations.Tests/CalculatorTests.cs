@@ -2,9 +2,9 @@
 using System.Threading;
 using System.Threading.Tasks;
 using NUnit.Framework;
-using static Calculation.Calculator;
+using static Calculations.Calculator;
 
-namespace Calculation.Tests
+namespace Calculations.Tests
 {
     [TestFixture]
     public class CalculatorTests

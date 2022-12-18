@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Calculation
+namespace Calculations
 {
     /// <summary>
     /// Presents methods for the calculation of the sum.

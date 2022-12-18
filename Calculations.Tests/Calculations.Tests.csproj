@@ -27,6 +27,6 @@
         </PackageReference>
     </ItemGroup>
     <ItemGroup>
-      <ProjectReference Include="..\Calculation\Calculation.csproj" />
+      <ProjectReference Include="..\Calculations\Calculations.csproj" />
     </ItemGroup>
 </Project>
