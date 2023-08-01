@@ -9,7 +9,7 @@ In this task you
 
 Before starting the task learn how to use `Task`/`Task<TResult>` classes and `async/await` key words in C#.
 
-Estimated time to complete the task: 6h.
+Estimated time to complete the task: 2h.
 
 
 ## Task Description
