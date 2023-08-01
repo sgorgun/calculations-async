@@ -1,6 +1,6 @@
 # Calculations (Async)
 
-An advanced level task for practicing asynchronous programming for CPU bound operations.
+Intermediate level task for practicing asynchronous methods for CPU bound operations and the task-based asynchronous pattern (TAP).
 
 In this task you
 - will learn the basics of asynchronous programming;
