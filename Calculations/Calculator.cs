@@ -13,7 +13,18 @@ public static class Calculator
     /// <exception cref="ArgumentOutOfRangeException">Throw if n less or equals zero.</exception>
     public static long CalculateSum(int n)
     {
-        throw new NotImplementedException();
+        if (n <= 0)
+        {
+            throw new ArgumentOutOfRangeException(nameof(n), "n must be greater than zero.");
+        }
+
+        long sum = 0;
+        for (int i = 1; i <= n; i++)
+        {
+            sum += i;
+        }
+
+        return sum;
     }
 
     /// <summary>
@@ -26,6 +37,23 @@ public static class Calculator
     /// <exception cref="ArgumentOutOfRangeException">Throw if n less or equals zero.</exception>
     public static Task<long> CalculateSumAsync(int n, CancellationToken token, IProgress<(int, long)>? progress = null)
     {
-        throw new NotImplementedException();
+        if (n <= 0)
+        {
+            throw new ArgumentOutOfRangeException(nameof(n), "n must be greater than zero.");
+        }
+
+        return Task.Run(
+            () =>
+        {
+            long sum = 0;
+            for (int i = 1; i <= n; i++)
+            {
+                sum += i;
+                progress?.Report((i, sum));
+                token.ThrowIfCancellationRequested();
+            }
+
+            return sum;
+        }, token);
     }
 }

@@ -13,7 +13,30 @@ internal static class Program
     {
         while (true)
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Enter the number n to calculate the sum from 1 to n:");
+            if (!int.TryParse(Console.ReadLine(), out int n))
+            {
+                Console.WriteLine("Invalid input. Please try again.");
+                continue;
+            }
+
+            try
+            {
+                using var cancellationTokenSource = new CancellationTokenSource();
+                var sum = await Calculator.CalculateSumAsync(n, cancellationTokenSource.Token, null);
+                Console.WriteLine($"The sum from 1 to {n} is {sum}.");
+            }
+            catch (ArgumentOutOfRangeException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+
+            Console.WriteLine("Press any key to continue or 'q' to quit:");
+            var key = Console.ReadKey();
+            if (key.KeyChar == 'q')
+            {
+                break;
+            }
         }
     }
 }
